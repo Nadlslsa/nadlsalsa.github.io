@@ -5,39 +5,15 @@
 body{
     color: azure;
     width: 100%;
-    height: 82vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: black;
-    /* padding-top: -30; */
 }
-
-.botones{
-    padding: 9px;
-    border-radius: 80px;
-    background-color: transparent;
-    border: none;
-}
-
-.botones a{
-    background-color: #0a2be9;
-    padding: 9px;
-    border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-
-}
-
-.botones a:focus{
-    background-color: rgb(50, 194, 194);
-}
-
 .greetings{
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 900;
 }
 .greetings > span{
@@ -65,9 +41,6 @@ body{
 .greetings > span:nth-child(5){
     animation-delay: .8s;
 }
-.greetings > span:nth-child(6){
-    animation-delay: 1s;
-}
 
 .description{
     font-size: 1.5rem;
@@ -83,15 +56,15 @@ body{
 @media screen and (max-width:574px){
     .greetings{
         display: block;
-        font-size: 4rem;
-        font-weight: 800;
+        font-size: 3rem;
+        font-weight: 500;
         text-align: center;
     }
     .description{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
     .button a{
-        font-size: 1rem;
+        font-size: .5rem;
     }
 }
